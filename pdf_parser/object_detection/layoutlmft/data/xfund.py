@@ -6,7 +6,7 @@ from torch.utils.data.dataset import Dataset
 from torchvision import transforms
 from PIL import Image
 
-from pdf_parser.object_detection.layoutlmft.data.image_utils import Compose, RandomResizedCropAndInterpolationWithTwoPic
+from .image_utils import Compose, RandomResizedCropAndInterpolationWithTwoPic
 
 XFund_label2ids = {
     "O":0,

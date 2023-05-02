@@ -7,7 +7,7 @@ import os
 
 import datasets
 
-from pdf_parser.object_detection.layoutlmft.data.image_utils import load_image, normalize_bbox
+from .image_utils import load_image, normalize_bbox
 
 
 logger = datasets.logging.get_logger(__name__)
