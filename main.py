@@ -1,0 +1,1 @@
+from pdf_parser.object_detection.ditod import add_vit_config
